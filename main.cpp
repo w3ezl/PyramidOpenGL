@@ -1,3 +1,4 @@
+#include <iostream>
 #include <windows.h>
 #include <gl/gl.h>
 #include <math.h>
@@ -85,7 +86,7 @@ void Game_Show()
         glEnableClientState(GL_VERTEX_ARRAY);
         glVertexPointer(3, GL_FLOAT, 0, brick);
 
-        int h = 32; /*Высота пирамиды*/
+        int h = 5; /*Высота пирамиды*/
 
         for (int z = 0; z < h; z++)
             for (int y = 0; y < h-z; y++)

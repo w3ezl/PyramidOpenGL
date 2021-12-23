@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1640206523 source:d:\cprojects\pyramide\main.c
-	<windows.h>
-	<gl/gl.h>
-	<math.h>
-
